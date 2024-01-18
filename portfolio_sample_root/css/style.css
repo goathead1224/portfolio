@@ -366,7 +366,7 @@ div .work_img1 {
 	}
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
 	.card2{
 		display: none;
 	}
