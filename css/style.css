@@ -366,12 +366,7 @@ div .work_img1 {
 	}
 }
 
-@media screen and (max-width: 600px) {
-	.card2{
-		display: none;
-	}
-	
-}
+
 
 @keyframes dash {
 	0% {
@@ -625,6 +620,19 @@ div .work_img1 {
 	.works_number_int {
 		font-size: 3.0rem;
 	}
+}
+
+
+@media screen and (max-width: 600px) {
+
+	.works_item .card1 , .card2{
+		width: 90%;
+	}
+
+	.card2{
+		display: none;
+	}
+	
 }
 
 .form {
